@@ -7,11 +7,7 @@
 > **DIAGRAMA DE ESTADO 🎀**
 
 ```mermaid
----
-config:
-  theme: redux
-  look: neo
----
+
 stateDiagram-v2
   [*] --> Idle : Aplicación abierta / Pantalla de inicio
   Idle --> Jugando : Usuario pulsa START
@@ -50,4 +46,5 @@ flowchart TD
   N --> O["Opcional: botón REINICIAR -> volver a C"]
 
 ```
+
 
