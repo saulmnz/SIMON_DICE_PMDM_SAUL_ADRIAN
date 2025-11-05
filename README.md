@@ -2,6 +2,8 @@
 
 - **Antes de empezar a codificar el programa hemos realizado un diagrama de flujo y de estado para comprender de manera profunda la lógica...**
 
+---
+
 > **DIAGRAMA DE ESTADO 🎀**
 
 ```mermaid
@@ -23,5 +25,9 @@ stateDiagram-v2
   GameOver --> Idle : Mostrar mensaje de pérdida y reiniciar a ronda inicial
 
 ```
+
+---
+
+> **DIAGRAMA DE FLUJO 🎳**
 
 
