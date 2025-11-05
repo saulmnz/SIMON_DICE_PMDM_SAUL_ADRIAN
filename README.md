@@ -53,18 +53,25 @@ flowchart TD
   D --> E["Mostrar secuencia al usuario<br/>(iluminar botones secuencialmente)"]
   E --> F["Habilitar entrada del usuario"]
   F --> G["Usuario pulsa un botón"]
+
   G --> H{"¿Pulsa el botón<br/>correcto según secuencia?"}
+
   H -->|"Sí"| I["Avanzar índice de comprobación"]
+
   I --> J{"¿Ha completado<br/>el usuario la secuencia?"}
   J -->|"No"| F
   J -->|"Sí"| K["Aumentar puntuación<br/>mostrar 'Rondas' y 'Puntuación'"]
+
   K --> L["Incrementar ronda"]
   L --> D
-  H -->|"No"| M["Game Over"]
-  M --> N["Mostrar pantalla Final:<br/>'Fin de juego'<br/>Rondas completadas y puntuación"]
-  N --> O["Opcional: botón REINICIAR -> volver a C"]
+
+  H -->|"No"| M["¡Has perdido!"]
+  M --> N["Mostrar mensaje de pérdida<br/>rondas completadas y puntuación"]
+  N --> A["Volver a la pantalla de inicio<br/>(Reiniciar juego)"]
+
 
 ```
+
 
 
 
