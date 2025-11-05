@@ -30,4 +30,24 @@ stateDiagram-v2
 
 > **DIAGRAMA DE FLUJO 🎳**
 
+```mermaid
+flowchart TD
+  A["Inicio - Pantalla principal<br/>(Simon Dice)"] --> B["Botón START pulsado"]
+  B --> C["Inicializar juego:<br/>ronda = 1, puntuación = 0, secuencia = []"]
+  C --> D["Generar/añadir color aleatorio a la secuencia"]
+  D --> E["Mostrar secuencia al usuario<br/>(iluminar botones secuencialmente)"]
+  E --> F["Habilitar entrada del usuario"]
+  F --> G["Usuario pulsa un botón"]
+  G --> H{"¿Pulsa el botón<br/>correcto según secuencia?"}
+  H -->|"Sí"| I["Avanzar índice de comprobación"]
+  I --> J{"¿Ha completado<br/>el usuario la secuencia?"}
+  J -->|"No"| F
+  J -->|"Sí"| K["Aumentar puntuación<br/>mostrar 'Rondas' y 'Puntuación'"]
+  K --> L["Incrementar ronda"]
+  L --> D
+  H -->|"No"| M["Game Over"]
+  M --> N["Mostrar pantalla Final:<br/>'Fin de juego'<br/>Rondas completadas y puntuación"]
+  N --> O["Opcional: botón REINICIAR -> volver a C"]
+
+```
 
