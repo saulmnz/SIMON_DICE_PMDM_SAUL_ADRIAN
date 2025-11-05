@@ -1,10 +1,10 @@
 ﻿# SIMÓN DICE - PMDM 🦑🫧🪼
 
-- **Antes de empezar a codificar el programa hemos realizado un diagrama de flujo y de estado para comprender de manera profunda la lógica...**
+> **Antes de empezar a codificar el programa hemos realizado un diagrama de flujo y de estado para comprender de manera profunda la lógica 🤖...**
 
 ---
 
-> **DIAGRAMA DE ESTADO 🎀**
+- **DIAGRAMA DE ESTADO 🎀**
 
 ```mermaid
 
@@ -43,7 +43,7 @@ stateDiagram-v2
 
 ---
 
-> **DIAGRAMA DE FLUJO 🎳**
+- **DIAGRAMA DE FLUJO 🎳**
 
 ```mermaid
 flowchart TD
@@ -65,6 +65,7 @@ flowchart TD
   N --> O["Opcional: botón REINICIAR -> volver a C"]
 
 ```
+
 
 
 
