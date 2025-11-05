@@ -1,6 +1,6 @@
 ﻿# SIMÓN DICE - PMDM 🦑🫧🪼
 
-> **Antes de empezar a codificar el programa hemos realizado un diagrama de flujo y de estado para comprender de manera profunda la lógica 🤖...**
+> **Antes de empezar a codificar el programa hemos realizado un diagrama de flujo y estado para comprender de manera profunda la lógica 🤖...**
 
 ---
 
@@ -65,6 +65,7 @@ flowchart TD
   N --> O["Opcional: botón REINICIAR -> volver a C"]
 
 ```
+
 
 
 
