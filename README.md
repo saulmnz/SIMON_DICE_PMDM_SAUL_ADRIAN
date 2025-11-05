@@ -1,6 +1,6 @@
 ﻿# SIMÓN DICE - PMDM 🦑🫧🪼
 
-## DIAGRAMA DE ESTADO
+> **DIAGRAMA DE ESTADO 🎀**
 
 ```mermaid
 ---
@@ -21,3 +21,4 @@ stateDiagram-v2
   GameOver --> Idle : Mostrar mensaje de pérdida y reiniciar a ronda inicial
 
 ```
+
